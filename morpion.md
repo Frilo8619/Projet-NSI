@@ -10,13 +10,69 @@
 
 ### Initialisation de la partie
 
+#### Explications
+
+- Tout d'abord on crée le `tableau` qui est une `liste` composée de 9 éléments, allant de l'indice 0 à 8.
+- Puis on créé la fonction `affiche_tableau` dans la quelle on va afficher dans le terminale chaque élément du `tableau` concatener avec `|`.
+- On initialise la valeur de la variable `Partie_en_cours` à `True` car la partie vient de commencer étant donné que le tableau est construit.
+- La partie vient de commencer donc la variable `Gagnant` est à `None`.
+- Enfin c'est le joueur `X` qui commence étant donné qu'on lui attribue la variable.
+
+#### Code
+
+```python
+tableau = ["-","-","-","-","-","-","-","-","-"]
+
+def afficher_tableau():
+    print(tableau[0] + " | " + tableau[1] + " | " + tableau[2])
+    print(tableau[3] + " | " + tableau[4] + " | " + tableau[5])
+    print(tableau[6] + " | " + tableau[7] + " | " + tableau[8])
+    
+Partie_en_cours = True
+
+Gagnant = None
+
+tour_de_joueur = "X"
+
+```
+
+### Déroulement de la partie
+
+#### Explications
+
+Le déroulement de la partie se résume grâce à la fonction `morpion`:
+
+- La partie débute avec un message affiché dans le terminal.
+- Par la suite viens la fonction qui va `afficher_tableau()`.
+- Puis, dans une boucle `while` trois autres fonctions s'active tant que la `Partie_en_cours`, l'un des joueurs doit placer un pion grâce à la fonction `choix`, puis on vérifie qu'il n'y a pas de gagnant avec la fonction `Veri_si_partie_fini()` et cela est bien le cas on change de joueur grâce à la fonction `change_de_joueur`.
+- Enfin si `Gagnant` est `X` ou `O`, on affiche le nom du gagnant sinon on affiche 2galité. 
+
+#### Code
+
+```python
+def morpion():
+    
+    afficher_tableau()
+    
+    while Partie_en_cours:
+        
+        choix(tour_de_joueur)
+        Verif_si_partie_fini()
+        change_de_joueur()
+        
+    if Gagnant == "X" or Gagnant == "O":
+        print(Gagnant + " à gagner.")
+    elif Gagnant == None:
+        print("égalité")
+
+```
 ---
 
-#### Explications `change_de_joueur`
+#### Explications `change_de_joueur()`
 
-Au lieu de crée deux joueurs distinct, il est plus facile de crée un seul joueur dont on change la valeur. C'est ce que fait cette fonction. Sachant que au départ du jeux `tour_de_jour` est initialisé avec `X`, cette fonction va donc changer la valeur à chaque tour de boucle, passant de `X` à `O` et inversement.
+- Au lieu de crée deux joueurs distincts, il est plus facile de créer un seul joueur dont on change la valeur. C'est ce que fait cette fonction. Sachant qu'au départ du jeu, `tour_de_joueur` est initialisée avec `X`, cette fonction va donc changer la valeur à chaque tour de boucle, passant de `X` à `O` et inversement.
 
-## Code de la fonction `change_de_joueur` 
+## Code de la fonction `change_de_joueur()` 
 
 ```python
 
