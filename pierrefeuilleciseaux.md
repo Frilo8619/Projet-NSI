@@ -89,7 +89,7 @@ mon_score = 0
 fenetre = Tk()
 fenetre.title("Pierre, papier, ciseaux")
 ```
-#images
+# Images
 ```python
 rien = PhotoImage(file ='rien.gif')
 versus = PhotoImage(file ='versus.gif')
@@ -124,7 +124,7 @@ lab3 = Label(fenetre, image=rien)
 lab3.grid(row =2, column =2)
 ```
 
-# boutons
+# Boutons
 ```python
 bouton1 = Button(fenetre,command=jouer_pierre)
 bouton1.configure(image=pierre)
