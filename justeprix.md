@@ -29,12 +29,12 @@ import random
 
 arret = 0
 
-valeur_minimal = 1
-valeur_max = input("Quelle sera la valeur maximal ? : ")
-valeur_maximal = int(valeur_max)
+valeur_minimale = 1
+valeur_max = input("Quelle sera la valeur maximale ? : ")
+valeur_maximale = int(valeur_max)
 
-solution = random.randint(valeur_minimal, valeur_maximal)
-tentatives = int(input("proposez le nombre de tentatives : "))
+solution = random.randint(valeur_minimale, valeur_maximale)
+tentatives = int(input("Proposez le nombre de tentatives : "))
 ```
 
 ### Partie
@@ -53,7 +53,7 @@ Dans le cas où la proposition est égale à la solution, on définit la variabl
 print(">> Bienvenue dans le juste prix <<")
 
 while (tentatives > 0) and (arret != 1):
-    proposition = input("proposez un montant: ")
+    proposition = input("Proposez un montant: ")
     proposition = int(proposition)
     
     if proposition != solution:
@@ -92,18 +92,18 @@ import random
 
 arret = 0
 
-valeur_minimal = 1
-valeur_max = input("Quelle sera la valeur maximal ? : ")
-valeur_maximal = int(valeur_max)
+valeur_minimale = 1
+valeur_max = input("Quelle sera la valeur maximale ? : ")
+valeur_maximale = int(valeur_max)
 
-solution = random.randint(valeur_minimal, valeur_maximal)
-tentatives = int(input("proposez le nombre de tentatives : "))
+solution = random.randint(valeur_minimale, valeur_maximale)
+tentatives = int(input("Proposez le nombre de tentatives : "))
 
 
 print(">> Bienvenue dans le juste prix <<")
 
 while (tentatives > 0) and (arret != 1):
-    proposition = input("proposez un montant: ")
+    proposition = input("Proposez un montant: ")
     proposition = int(proposition)
     
     if proposition != solution:
