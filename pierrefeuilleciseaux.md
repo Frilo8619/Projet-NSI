@@ -1,5 +1,7 @@
 # Jeu pierre, papier, ciseaux contre l'ordinateur
 
+![Image Chifoumi](https://www.zupimages.net/up/23/21/4ami.gif)
+
 # Présentation
 
 Pierre-papier-ciseaux est un jeu effectué avec les mains et opposant deux joueurs. Il possède de nombreux noms alternatifs, notamment en variant l'ordre des termes ou en remplaçant certains mots comme « papier » par « feuille » ou « pierre » par « caillou » ou « roche ». Le terme chifoumi est également une appellation courante. 
