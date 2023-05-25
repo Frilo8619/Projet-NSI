@@ -1,9 +1,4 @@
-# jeu pierre, papier, ciseaux contre l'ordinateur
-
-# logo acceuil a enlever 1 fois utilisé
-
-
-![](https://zupimages.net/up/23/21/4ami.gif)
+# Jeu pierre, papier, ciseaux contre l'ordinateur
 
 # Présentation
 
