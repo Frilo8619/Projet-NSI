@@ -6,36 +6,10 @@ site_description: Jeux python
 docs_dir: docs
 
 nav:
-  - "Installation de MkDocs": README.md
-  - "Bases de Markdown": pierrefeuilleciseaux.md
+  - "ACCEUIL": README.md
+  - "PFC": pierrefeuilleciseaux.md
 
-theme:
-    name: material
-    font: false                     # RGPD ; pas de fonte Google
-    language: fr                    # français
-    palette:                        # Palettes de couleurs jour/nuit
-      - media: "(prefers-color-scheme: light)"
-        scheme: default
-        primary: indigo
-        accent: indigo
-        toggle:
-            icon: material/weather-sunny
-            name: Passer au mode nuit
-      - media: "(prefers-color-scheme: dark)"
-        scheme: slate
-        primary: blue
-        accent: blue
-        toggle:
-            icon: material/weather-night
-            name: Passer au mode jour
-    features:
-        - navigation.instant
-        - navigation.tabs
-        - navigation.expand
-        - navigation.top
-        - toc.integrate
-        - header.autohide
-
+theme: Architect
 
 markdown_extensions:
     - meta
@@ -62,50 +36,4 @@ markdown_extensions:
     - pymdownx.emoji:               # Émojis  :boom:
         emoji_index:     !!python/name:materialx.emoji.twemoji
         emoji_generator: !!python/name:materialx.emoji.to_svg
-
-
-    - pymdownx.arithmatex:
-        generic: true
-    - toc:
-        permalink: ⚓︎
-        toc_depth: 3
-
-extra:
-    social:
-        - icon: fontawesome/brands/gitlab
-          link: https://gitlab.com/ens-fr
-          name: Enseignement en français
-
-        - icon: fontawesome/brands/discourse
-          link: https://mooc-forums.inria.fr/moocnsi/
-          name: Le forum des enseignants de NSI
-
-        - icon: fontawesome/brands/linux
-          link: https://linuxfr.org/
-          name: Promouvoir les Logiciels libres
-
-        - icon: fontawesome/brands/wikipedia-w
-          link: https://fr.wikipedia.org
-          name: L'encyclopédie libre que chacun peut améliorer
-
-        - icon: fontawesome/solid/paper-plane
-          link: mailto:franck.chambon@ac-aix-marseille.fr
-          name: Écrire à l'auteur
-    site_url: https://ens-fr.gitlab.io/mkdocs/
-
-
-plugins:
-  - search
-  - macros
-
-extra_javascript:
-  - javascripts/config.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - https://unpkg.com/mermaid@8.9.2/dist/mermaid.min.js
-  - javascripts/mermaid.js
-
-extra_css:
-  - stylesheets/extra.css
-
 
