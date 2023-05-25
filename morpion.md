@@ -1,3 +1,17 @@
+# Morpion
+
+![Morpion](https://th.bing.com/th/id/OIP.1uSuE5YjhgyHFMzoEMuEKAAAAA?w=154&h=179&c=7&r=0&o=5&dpr=1.3&pid=1.7)
+
+## Présentation
+
+- Le but du jeu est que l'un des deux joueurs aligne trois de ces pions sur le plateau.
+
+## Code du jeu
+
+### Initialisation de la partie
+
+#### Explications
+
 ```python
 
 plateau = [" " for _ in range(9)]  # crée un tableau de 9 caractères espaces " "
