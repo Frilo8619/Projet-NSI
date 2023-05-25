@@ -1,6 +1,6 @@
 # Morpion
 
-![Morpion](https://th.bing.com/th/id/OIP.1uSuE5YjhgyHFMzoEMuEKAAAAA?w=154&h=179&c=7&r=0&o=5&dpr=1.3&pid=1.7)
+![Morpion](https://th.bing.com/th/id/OIP.KBkXeSm43Lk9cNHlxEcA6QAAAA?w=161&h=169&c=7&r=0&o=5&dpr=1.3&pid=1.7)
 
 ## Présentation
 
