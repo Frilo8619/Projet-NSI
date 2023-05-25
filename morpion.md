@@ -1,3 +1,5 @@
+```python
+
 plateau = [" " for _ in range(9)]  # crée un tableau de 9 caractères espaces " "
 
 
@@ -48,4 +50,4 @@ def morpion():
 
 if __name__ == "__main__":
     morpion()
-    
+```
