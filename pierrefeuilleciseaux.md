@@ -15,7 +15,7 @@ from tkinter import *
 ```
 `from random import randint` : Cette ligne importe la fonction randint du module random. La fonction randint est utilisée pour générer un nombre aléatoire dans un intervalle donné. L'importation de cette fonction spécifique permet d'utiliser directement randint dans le code sans avoir à préciser le nom complet du module.
 
-`from tkinter import * `: Cette ligne importe tous les objets et les fonctions du module tkinter, qui est une bibliothèque graphique standard de Python. tkinter est utilisé pour créer des interfaces graphiques (GUI) avec des fenêtres, des boutons, des champs de texte, etc. L'importation de tous les objets avec * permet d'accéder directement à ces objets sans avoir à préciser le nom complet du module.
+`from tkinter import * `: Cette ligne importe tous les objets et les fonctions du module tkinter, qui est une bibliothèque graphique standard de Python. Tkinter est utilisé pour créer des interfaces graphiques (GUI) avec des fenêtres, des boutons, des champs de texte, etc. L'importation de tous les objets avec * permet d'accéder directement à ces objets sans avoir à préciser le nom complet du module.
 ## Code
 ```python
 def augmenter_scores(mon_coup,ton_coup):
@@ -78,13 +78,13 @@ def reinit():
 
 > reinit(): Cette fonction est appelée lorsque vous souhaitez réinitialiser le jeu. Elle réinitialise les scores (mon_score et ton_score) à zéro, configure les images dans lab1 et lab3 pour afficher une image vide (rien), et met à jour les valeurs des scores affichées à l'aide des objets score1 et score2.
 
-# variables globales
+# Variables globales
 ```python
 ton_score = 0
 mon_score = 0
 ```
 
-# fenetre graphique
+# Fenêtre graphique
 ```python
 fenetre = Tk()
 fenetre.title("Pierre, papier, ciseaux")
