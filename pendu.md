@@ -21,7 +21,7 @@
 
 #### Code
 
-```python linenums="1"
+```python
 from turtle import *
 import random
 choix = ['capital', 'orange', 'raide', 'fictif',
