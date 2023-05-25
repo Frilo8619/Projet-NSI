@@ -144,15 +144,15 @@ bouton4.grid(row =5, column =0, pady =10, sticky=E)
 bouton5 = Button(fenetre,text='Quitter',command=fenetre.destroy)
 bouton5.grid(row =5, column =2, pady =10, sticky=W)
 ```
-# demarrage du jeu:
+# Démarrage du jeu:
 ```python
 fenetre.mainloop()               
 ```
-## lancement du jeu 
+## Lancement du jeu 
 
 ![image](https://zupimages.net/up/23/21/sdx4.png)
  
-## Lien des images 
+## Lien des images
 
 https://www.apprendre-en-ligne.net/pj/ppcg/pierre.gif
 
