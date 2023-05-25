@@ -1,3 +1,10 @@
+# Pendu
+
+![Pendu](https://www.kastete.fr/img/partie.png)
+
+## Présentation
+
+Le but du jeu est de trouver un mot choisi parmi une liste prédéfinie de mots en un maximum de 11 tentatives. Le jeu
 ```python
 from turtle import *
 
