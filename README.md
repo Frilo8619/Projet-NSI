@@ -2,9 +2,6 @@
 
 Dans le cadre d'un projet de NSI, on vous propose 4 jeux simples en Python :
 
-| Jeux | Aperçus |
-| --- | --- |
-| Pierre-feuille-ciseaux | [Pierre-feuille-ciseaux](/pierrefeuilleciseaux.md) |
-| Juste prix | [Juste prix](/justeprix.md) |
-| Morpion | [Morpion](/morpion.md) |
-| [Pendu](/pendu.md) | ![Capture d'écran 2023-05-25 214558](https://github.com/Frilo8619/Projet-NSI/assets/134609492/a257856d-5933-4298-8d8a-9cf6860d0b52) |
+| [Pierre-feuille-ciseaux](/pierrefeuilleciseaux.md) | ![Chifoumi (1)](https://github.com/Frilo8619/Projet-NSI/assets/134609492/586a36da-2989-47e6-b7e2-3561e47223da) | [Juste prix](/justeprix.md) | ![image_2023-05-25_222536031](https://github.com/Frilo8619/Projet-NSI/assets/134609492/16ddc6a2-93bd-4e9a-a997-d76626ff95f3) |
+| :--: | :--: | :--: | :--: |
+| [Morpion](/morpion.md) | ![Capture d'écran 2023-05-25 222934](https://github.com/Frilo8619/Projet-NSI/assets/134609492/6e4b034d-9680-46a0-a9d2-c358701a8c8b) | [Pendu](/pendu.md) | ![Capture d'écran 2023-05-25 214558](https://github.com/Frilo8619/Projet-NSI/assets/134609492/c6485e0e-4fc9-4414-9943-4b998a29c440) |
