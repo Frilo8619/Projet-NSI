@@ -1,23 +1,13 @@
-site_name: "De Jupyter à MkDocs"
-site_url: https://ens-fr.gitlab.io/mkdocs
-repo_url: https://gitlab.com/ens-fr/mkdocs
-edit_uri: tree/master/docs/
-site_description: Tutoriel pour MkDocs Material
-copyright: |
-  Copyleft 🄯 2021 <a href="https://lyc-84-bollene.gitlab.io/chambon/" target="_blank" rel="noopener">Franck CHAMBON</a>
+site_name: "Projet NSI"
+site_url: https://frilo8619.github.io/Projet-NSI/
+
+edit_uri: tree/main/docs/
+site_description: Jeux python
 docs_dir: docs
 
 nav:
-  - "Installation de MkDocs": index.md
-  - "Bases de Markdown": markdown-bases.md
-  - "Markdown pour MkDocs": markdown-mkdocs.md
-  - "Écrire des maths": maths.md
-  - "Élaboration du site": setup-mkdocs.md
-  - "Recettes simples": recettes_1.md
-  - "Hébergement du site": gitlab-mkdocs.md
-  - "Recettes élaborées": recettes_2.md
-  - "Bonus": 1-binaire/1-binaire.md
-
+  - "Installation de MkDocs": README.md
+  - "Bases de Markdown": pierrefeuilleciseaux.md
 
 theme:
     name: material
