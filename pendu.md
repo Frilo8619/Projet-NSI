@@ -73,6 +73,8 @@ while tentatives > 0:
           affichage += "_ "
 ```
 
+---
+
 #### Explications fonction `affichage_erreur(tentatives)`
 
 - Cette fonction va permettre de tracer un nouveau trait sur le pendu à chaque erreur de lettre de la part du joueur grâce au module `turtle`. Le nombre de tentatives étant initialisé à 11, jusqu'à 11 traits pourront être créés. Avant de tracer le trait correspondant, on affiche un message comme quoi le joueur a sélectionné une mauvaise lettre.
