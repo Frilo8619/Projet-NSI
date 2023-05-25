@@ -4,7 +4,8 @@
 
 ## Présentation
 
-Le but du jeu est de trouver un mot choisi parmi une liste prédéfinie de mots en un maximum de 11 tentatives. Le jeu
+Le but du jeu est de trouver un mot choisi parmi une liste prédéfinie de mots en un maximum de 11 tentatives. A chaque tour, on propose une lettre, et si la lettre proposée n'est pas dans le mot, on perd une tentative. Au bout de 11 tentatives, la partie est perdue. La partie est terminée lorsque le mot a été trouvé.
+
 ```python
 from turtle import *
 
